@@ -1,4 +1,4 @@
-Oltepesi Activities Management System
+*Oltepesi Activities Management System*
 
 Description
 This is a Django-based web application for managing harvester activities, groups, and team leaders. It includes admin features such as activity tracking, filtering, and exporting data to CSV.
