@@ -7,9 +7,13 @@ This is a Django-based web application for managing harvester activities, groups
 **Features**
 
 Manage groups and team leaders
+
 Track harvester activities
+
 Django admin dashboard
+
 Filtering for records
+
 Export selected activities to CSV
 
 **Project Status**
