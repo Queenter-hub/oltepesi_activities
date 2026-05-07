@@ -1,0 +1,21 @@
+<form method="get">
+  {% for key, value in request.GET.items %}
+    {% if key != 'start_date' and key != 'end_date' %}
+      <input type="hidden" name="{{ key }}" value="{{ value }}">
+    {% endif %}
+  {% endfor %}
+
+  <div style="padding: 10px;">
+    <label>From:</label>
+    <input type="date" name="start_date" value="{{ request.GET.start_date }}">
+
+    <br><br>
+
+    <label>To:</label>
+    <input type="date" name="end_date" value="{{ request.GET.end_date }}">
+
+    <br><br>
+
+    <button type="submit" class="button">Apply</button>
+  </div>
+</form>
