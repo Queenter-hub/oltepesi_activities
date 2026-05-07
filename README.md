@@ -6,15 +6,15 @@ This is a Django-based web application for managing harvester activities, groups
 
 **Features**
 
-Manage groups and team leaders
+1. Manage groups and team leaders
 
-Track harvester activities
+2. Track harvester activities
 
-Django admin dashboard
+3. Django admin dashboard
 
-Filtering for records
+4. Filtering for records
 
-Export selected activities to CSV
+5. Export selected activities to CSV
 
 **Project Status**
 
